@@ -8,7 +8,6 @@ use std::collections::HashSet;
  *   - If no two numbers sum up to the target sum, the function should return an empty array.
  *   - Assume AT MOST ONE PAIR of numbers can sum up to the target.
  **/
-fn main() {}
 
 fn two_sum_brute_force(input_array: Vec<i32>, target_sum: i32) -> Vec<i32> {
     // Time complexity: O(n2)
